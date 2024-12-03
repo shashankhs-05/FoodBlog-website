@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  # Node.js application service
+  nodejs_app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nodejs_app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongo
+
+  # MongoDB service
+  mongo:
+    image: mongo:latest
+    container_name: mongo_db
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:

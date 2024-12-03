@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarize Text</title>
+    <style>
+        .box {
+            max-width: 300px;
+            margin: 0 auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .box h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .box input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .box input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <form action="/summarize" method="post">
+        <h1>Summarize Text</h1>
+        <input type="hidden" name="text" value="hey there">
+        <input type="submit" value="Click to summarize text">
+    </form>
+</div>
+
+</body>
+</html>

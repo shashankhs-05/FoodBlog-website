@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="x-icon" href="image/logo4.jpeg">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+  <div class="class2">
+    <!-- <img class="logo" src="image/logo-main-2-modified.png" alt="logo" height="220px" width="220px">     -->
+    <nav class="nnn navbar navbar-expand-lg">
+      <a class=" center1 navbar-brand disabled" href="bono.html">Bono DeliZioso</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="center collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled"
+              href="C:\Users\shrav\OneDrive\Documents\GitHub\FrontEndDev\BMSCE_FoodBlog\src\public\index.html">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="register.html">Subscribe</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" action="search.html" method="GET" onsubmit=" return updateUrl()">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" id="search-input">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        <script>
+          function updateUrl() {
+            var search = document.getElementById("search-input").value;
+            var url = "search.html?search=" + encodeURIComponent(search);
+            window.location.href = url;
+            return false;
+          }
+        </script>
+      </div>
+    </nav>
+    <br><br>
+  </div>
+
+  <div class="log">
+    <form class="box" action="/login" method="post">
+      <h1>Login</h1>
+      <input type="text" name="email" placeholder="email" required>
+      <input type="password" name="password" placeholder="password" required>
+      <input type="submit" class="login" value="Login">
+    </form>
+    <form class="box" action="/logout" method="post">
+      <input type="submit" class="logout" value="Logout">
+    </form>
+
+    <p>New to Bono DeliZioso?<a href="login.html"> Register</a></p>
+
+
+
+  </div>
+
+</body>
+
+</html>

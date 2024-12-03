@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.class2 {
+    text-align: center;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    /* display: flex; */
+}
+
+.quick-pdate {
+    justify-content: center;
+    text-align: center;
+}
+
+.div {
+    display: inline-block;
+    padding-left: 50px;
+
+}
+
+.sign-up {
+    background-color: black;
+    padding: 1vh;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.quick {
+    font-family: 'Lobster', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quick-diva {
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.quick-p {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.quick-button1 {
+    justify-content: center;
+    display: inline-block;
+    padding-left: 170px;
+}
+
+.quick-button2 {
+    position: relative;
+    left: 100px;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    padding-left: 170px;
+}
+
+.quick-button3 {
+    position: relative;
+    left: 200px;
+    display: inline-block;
+    padding-left: 170px;
+}
+
+button {
+    background-color: #fff;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    border-width: 0.9px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+}
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 80px 0px;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+.container .search {
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.container .search h1 {
+    letter-spacing: 3px;
+    display: inline-block;
+    border-bottom: 2px solid green;
+    padding-bottom: 10px;
+}
+
+.container .search input {
+    width: 60%;
+    padding: 5px 16px;
+    background: transparent;
+    border: 1px solid #000;
+    font-size: 20px;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    outline: none;
+}
+
+.container .search input::placeholder {
+    color: green;
+    font-weight: 500;
+}
+
+.container .product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.container .product-list .product {
+    margin-top: 60px;
+}
+
+.container .product-list .product h3 {
+    padding-top: 5px;
+    letter-spacing: 2px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.container .product-list .product h4 {
+    padding: 3px 0px;
+    color: #48a809;
+    font-weight: 700;
+    letter-spacing: 3px;
+}

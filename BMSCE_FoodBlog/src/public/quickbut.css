@@ -1,0 +1,470 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+
+
+.div {
+    display: inline-block;
+    padding-left: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.jax {
+    position: relative;
+    left: 30px;
+}
+
+.heading {
+    font-family: 'Noto Serif NP Hmong', serif;
+}
+
+.checked {
+
+    display: inline-flex;
+    color: gold;
+    font-size: 20px;
+    position: relative;
+    right: 40px;
+}
+
+button {
+    background-color: #fff;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-width: 0.9px;
+    font-family: 'Chivo Mono', monospace;
+    position: relative;
+    left: 25px;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+
+
+}
+
+.afiliate {
+    color: gray;
+    position: relative;
+    right: 30px;
+}
+
+.headh3 {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    right: 30px;
+}
+
+.img-ramen {
+    position: relative;
+    left: 20px;
+}
+
+.div2 {
+    font-family: 'Rajdhani', sans-serif;
+    line-height: 10px;
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 30%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.recipe {
+    /* background: linear-gradient(90deg, #FFC0CB 50%,); */
+    /* background-color: black; */
+    background-size: 100px auto;
+    color: white;
+    size: 100px;
+
+}
+
+.jeff {
+    position: relative;
+    left: 130px;
+    bottom: 400px;
+}
+
+.jeff-div {
+    position: relative;
+    left: 1050px;
+    bottom: 430px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.jeff-p {
+    position: relative;
+    right: 140px;
+    /* font-family: 'IM Fell Double Pica', serif; */
+    font-family: 'Work Sans', sans-serif;
+}
+
+.image-con {
+    position: relative;
+    top: auto;
+    padding-left: 2%;
+    font-size: 15px;
+    /* bottom: 180px;
+    left:20px; */
+}
+
+/* #section1{
+    justify-content: center;
+    text-align: left;
+    background-color: black;
+    padding-left: 2%;
+    padding-right: 10%;
+} */
+
+.classss {
+    padding-top: 20px;
+    /* padding-bottom: 100px;
+    padding-left: 1%;
+    padding-bottom: 10%; */
+    background-color: black;
+    text-align: center;
+    height: 330px;
+}
+
+.recipe-h3 {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    position: relative;
+    right: 300px;
+}
+
+/* .para {
+    background-color: black;
+} */
+.recipe-img {
+    /* float: right; */
+    position: relative;
+    left: 280px;
+    bottom: 100px;
+}
+
+.yield-serv {
+
+    position: relative;
+    right: 300px;
+    top: 20px;
+}
+
+.yield-prep {
+    position: relative;
+    right: 100px;
+    bottom: 8px;
+}
+
+.yield-cook {
+    position: relative;
+    left: 100px;
+    bottom: 35px;
+}
+
+.yield-total {
+    position: relative;
+    right: 300px;
+    bottom: 18px;
+}
+
+.recipe-para {
+    position: relative;
+    bottom: 200px;
+    right: 130px;
+}
+
+.jakka {
+    position: relative;
+    bottom: 190px;
+    right: 200px;
+    right: 300px;
+
+}
+
+/* .recipe-para {
+    text-align: left;
+} */
+.jakka-p {
+    color: gray;
+    position: relative;
+    bottom: 200px;
+    right: 150px;
+}
+
+.vl {
+    border-left: 0.5px solid black;
+    height: 1200px;
+    position: relative;
+    left: 38px;
+}
+
+.v2 {
+    border-left: 0.5px solid black;
+    height: 1200px;
+    position: relative;
+    bottom: 1200px;
+    left: 884px;
+}
+
+.quick-button1 {
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 170px;
+    font-weight: 500;
+}
+
+.quick-button1 {
+    background-color: #fff;
+    color: black;
+    font-size: medium;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: relative;
+    left: 60px;
+
+    text-decoration: none;
+    /* border-radius: 10px;
+    border-width: 0.9px; */
+}
+
+.quick-button2 {
+    position: relative;
+    left: 170px;
+}
+
+.quick-button3 {
+    position: relative;
+    left: 300px;
+
+}
+
+.quick-button3-a {
+    text-decoration: none;
+    color: black;
+    text-decoration-color: #fff;
+}
+
+.quick-button3-a:hover {
+    color: white;
+    text-decoration: #EEEEEE;
+}
+
+.quick-button1:hover {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+
+.v1-h3 {
+    position: relative;
+    left: 25px;
+}
+ul {
+    position: relative;
+    left: 20px;
+}
+
+hr {
+    width: 800px;
+    height: 200px;
+    position: absolute;
+    left: 15px;
+
+}
+
+.ol-img {
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+    top: 25px;
+}
+
+.ol-para {
+    position: relative;
+    left: 25px;
+    bottom: 4px;
+    line-height: 10px;
+}
+
+.cla {
+    padding-top: 20px;
+    /* padding-bottom: 100px;
+    padding-left: 1%;
+    padding-bottom: 10%; */
+    background-color: black;
+    text-align: center;
+    height: 180px;
+    width: 847px;
+    position: relative;
+    bottom: 1300px;
+    left: 38px;
+}
+
+.cla-img {
+    position: relative;
+    right: 320px;
+}
+
+.cla-h3 {
+    color: #fff;
+    position: relative;
+    right: 80px;
+    bottom: 80px;
+}
+
+.cla-h5 {
+    color: #fff;
+    position: relative;
+    bottom: 80px;
+    left: 60px;
+}
+
+/* @media print {
+    .v1-h3 {
+        display: grid;
+    }
+}
+
+h1 {
+    color: #f6f6;
+} */
+.quick-button {
+    position: relative;
+    bottom: 70px;
+    right: 100px;
+}
+
+.quick-button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.fa-sharp {
+    color: white;
+}
+
+.last-img {
+    position: relative;
+    left: 20px;
+    bottom: 1200px;
+}
+
+.hr1 {
+    width: 1100px;
+    border-top: 3px solid #EEEEEE;
+}
+
+.cla2 {
+    padding-top: 20px;
+    /* padding-bottom: 100px;
+    padding-left: 1%;
+    padding-bottom: 10%; */
+    background-color: black;
+    text-align: center;
+    height: 130px;
+    width: 1217px;
+    position: relative;
+    bottom: 1150px;
+    left: 20px;
+}
+
+.cla2-h3 {
+    color: #fff;
+    position: relative;
+    right: 190px;
+    top: 20px;
+}
+
+.email {
+    position: relative;
+    left: 220px;
+    bottom: 20px;
+
+}
+
+.cla2-a {
+    position: relative;
+    left: 500px;
+    bottom: 43px;
+    color: #fff;
+}
+
+.cla2-a:hover {
+    color: gray;
+    text-decoration: #EEEEEE;
+
+}
+
+footer {
+    position: relative;
+    bottom: 1000px;
+}
+
+.cla3 {
+    background-color: black;
+    text-align: center;
+    height: 130px;
+    width: 1300px;
+
+}
+
+.cla3-h3 {
+    color: #fff;
+    position: relative;
+    right: 190px;
+    top: 40px;
+}
+
+.email {
+    position: relative;
+    left: 220px;
+    bottom: 0px;
+
+}
+
+.cla3-a {
+    position: relative;
+    left: 500px;
+    bottom: 25px;
+    color: #fff;
+}
+
+.cla3-a:hover {
+    color: gray;
+    text-decoration: #EEEEEE;
+
+}
+
+.class2 {
+    text-align: center;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    /* display: flex; */
+}
+
+.email1 {
+    position: relative;
+    left: 250px;
+    bottom: 16px;
+}

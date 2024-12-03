@@ -1,0 +1,107 @@
+.div {
+  display: inline-block;
+  padding-left: 50px;
+
+}
+
+.sign-up {
+  background-color: black;
+  padding: 1vh;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.quick {
+  font-family: 'Lobster', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.quick-diva {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.quick-p {
+  text-align: center;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.quick-button1 {
+  justify-content: center;
+  display: inline-block;
+  padding-left: 170px;
+}
+
+
+
+.quick-button2 {
+  position: relative;
+  left: 100px;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  padding-left: 170px;
+}
+
+.quick-button3 {
+  position: relative;
+  left: 200px;
+  display: inline-block;
+  padding-left: 170px;
+}
+
+@media screen and (max-width:600px) {
+  .quick-button1 {
+    position: relative;
+    left: 4vh;
+    bottom: 505vh;
+  }
+
+  .quick-button2 {
+    position: relative;
+    left: 7vh;
+    bottom: 325vh;
+  }
+
+  .quick-button3 {
+    position: relative;
+    left: 12vh;
+    bottom: 155vh;
+  }
+}
+
+button {
+  background-color: #fff;
+  font-size: medium;
+  padding-left: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 10px;
+  border-width: 0.9px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+.class2 {
+  text-align: center;
+  position: relative;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  /* display: flex; */
+}
+
+.quick-pdate {
+  justify-content: center;
+  text-align: center;
+}

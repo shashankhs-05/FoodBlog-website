@@ -1,0 +1,12 @@
+# Install Conda if you haven't already: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
+# Create a new Conda environment
+conda create -n myenv python=3.11
+
+# Activate the environment
+conda activate myenv
+
+# Install PyTorch and transformers in the Conda environment
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+pip install transformers
+pip install flask
